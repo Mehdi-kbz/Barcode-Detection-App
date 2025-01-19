@@ -1,7 +1,6 @@
 # Barcode Reading Project
 <img width="814" alt="lancers_rayons1" src="https://github.com/user-attachments/assets/365384c4-c769-4b0e-80c7-7553270db1d3" />
 <img width="725" alt="segmentation_detecte" src="https://github.com/user-attachments/assets/6df9e9a9-5bbe-41c4-a392-3cb5d4a225b4" />
-![segmentation_detecte1](https://github.com/user-attachments/assets/08616c41-86d2-4428-aca9-8d1a9ba25616)
 <img width="627" alt="segmentation_detecte2" src="https://github.com/user-attachments/assets/da8ce4db-a56e-4889-9eb2-0e8b79a78238" />
 
 ![screenshot3](https://github.com/user-attachments/assets/3cac4e86-d151-4a08-8044-5d16108f5e33)
