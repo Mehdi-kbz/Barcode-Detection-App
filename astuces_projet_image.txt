@@ -1,0 +1,38 @@
+x_barycentre = (x₁ + x₂) / 2
+
+x_barycentre = (w₁x₁ + w₂x₂ + ... + wₙxₙ) / (w₁ + w₂ + ... + wₙ)
+
+c'est prq 
+O_x = np.sum(X * M) / np.sum(M)
+O_y = np.sum(Y * M) / np.sum(M)
+
+Centrage des coordonnées
+
+X_c = X - O_x
+Y_c = Y - O_y
+
+
+Pour C_xx :
+
+
+On fait en quelque sorte le produit scalaire de X_c avec lui-même (X_c·X_c)
+Mais on ne garde que les points où M=1 (points noirs)
+Et on divise par le nombre total de points noirs
+
+C_xx = np.sum(X_c * X_c * M) / np.sum(M)
+C_xy = np.sum(X_c * Y_c * M) / np.sum(M)
+C_yy = np.sum(Y_c * Y_c * M) / np.sum(M)
+
+
+La matrice de covariance C qu'on a calculée nous dit comment notre forme noire est "étalée" dans l'espace.
+
+
+c'est un changement de base vectorielle. Je vais développer cette idée mathématique.
+Dans notre problème, nous avons deux bases vectorielles :
+
+La base classique (canonique) : (ex, ey) où ex = (1,0) et ey = (0,1)
+Notre nouvelle base : (u1, u2) obtenue par les vecteurs propres
+
+La fonction corner(a,b) : elle convertit les coordonnées (a,b) exprimées dans la base (u1,u2) en coordonnées (x,y) dans la base classique.
+
+
